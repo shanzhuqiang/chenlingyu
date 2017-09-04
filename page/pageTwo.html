@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Pragma" contect="no-cache"/>
+    <meta http-equiv="cache-control" contect="no-cache"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>世界上最美的女人</title>
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+		.clickImage2{
+			position: absolute;
+		    width: 60px;
+		    height: 60px;
+		    border-radius: 50%;
+		    overflow: hidden;
+		    left: 250px;
+		    top: 200px;
+		    display: none;
+		    cursor:pointer;
+			-webkit-animation-iteration-count: infinite;
+		  	animation-iteration-count: infinite;
+		}
+		.footer{
+			position: absolute;
+    		width: 100%;
+		}
+	</style>
+	<link href="../css/default2.css" type="text/css" rel="stylesheet">
+   	<link href="../css/animate.min.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/garden.js"></script>
+    <script type="text/javascript" src="../js/functions2.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content" style="position: relative;">
+			<div id="code">
+				<span class="keyword">To</span> Dear Chen:<br /><br />
+                <span>从3.12你我的第一个吻. </span><br /><br />
+                <span>到9.11你我的第一个生日. </span><br /><br />
+                <span>这183天经历了很多. </span><br /><br />
+                <span>有欢声笑语、也有悲情愁绪. </span><br /><br />
+                <span>但这一切都是我们恋爱中的基石. </span><br /><br />
+                <span>是磨合中不可避免的矛盾. </span><br /><br />
+                <span>是爱情中不可缺少的润滑剂. </span><br /><br />
+                <span>是一个更稳固的一生. </span><br /><br />
+                <span>媳妇. </span><br /><br />
+                <span>我知道我有很多缺点. </span><br /><br />
+                <span>动不动就耍脾气闹小性子，一生气就不讲话. </span><br /><br />
+                <span>你这样完美的仙女还愿意屈身于我. </span><br /><br />
+                <span>我竟然还有脸生气. </span><br /><br />
+                <span>真的是对自己一点逼数都没有. </span><br /><br />
+                <span>And,I want to say: </span><br /><br />
+                <span>You are the reason I am. </span><br /><br />
+                <span>Happy Birthday. </span><br /><br />
+				<br />
+			</div>
+			<div id="next2">
+	            <img src="../images/next2.png" class="animated pulse clickImage2">
+	        </div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						亲爱的，生日快乐。
+						<div id="elapseClock">年年月月逝去越是觉得爱你。从须臾到不朽，从一叶到知秋</div>
+					</div>
+					<div id="loveu">
+						幸福快乐每一天。<br/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+
+		setTimeout(function () {
+			startHeartAnimation();
+		}, 5000);
+
+		setTimeout(function () {
+			$('.clickImage2').show()
+		}, 32000);
+
+		$("#code").typewriter();
+
+	    $('.clickImage2').click(function () {
+	        window.location.href = "./pageThree.html"
+	    })
+	</script>
+<center class="footer">&Ccedil;&nbsp;&#76;&nbsp;&Yacute;&nbsp;&hearts;&nbsp;<a href="#">Happy Birthday</a></center>
+</body>
+</html>

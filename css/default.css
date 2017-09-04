@@ -1,0 +1,88 @@
+body{
+	margin:0;
+	padding:0;
+	background:#ffe;
+	font-size:14px;
+	font-family:'微软雅黑','宋体',sans-serif;
+	color:#231F20;
+	overflow:auto
+}
+a {
+	color:#000;
+	font-size:14px;
+}
+#main{
+	width:100%;
+}
+#main #wrap{
+	position:relative;
+	margin:0 auto;
+	width:1100px;
+	height:680px;
+	margin-top:10px;
+}
+#main #text{
+	width:400px;
+	height:425px;
+	left:60px;
+	top:80px;
+	position:absolute;
+}
+#main #code{
+	display:none;
+	font-size:16px;
+}
+#main #clock-box {
+	position:absolute;
+	left:60px;
+	top:550px;
+	font-size:28px;
+	display:none;
+}
+#main #clock-box a {
+	font-size:28px;
+	text-decoration:none;
+}
+#main #clock{
+	margin-left:48px;
+}
+#main #clock .digit {
+	font-size:64px;
+}
+#main #canvas{
+	margin:0 auto;
+	width:1100px;
+	height:680px;
+}
+#main #error{
+	margin:60px auto 0;
+	text-align:center;
+	display:none;
+}
+#main .hand{
+	cursor:pointer;
+}
+#main .say{
+	margin-left:5px;
+}
+#main .space{
+	margin-right:150px;
+}
+.space1{
+	margin-right: 50px
+}
+#next1{
+	position: absolute;
+	top: 240px;
+	left: 110px;
+	display: none
+}
+#next1 .clickImage{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-animation-iteration-count: infinite;
+  	animation-iteration-count: infinite;
+}
